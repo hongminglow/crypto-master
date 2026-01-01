@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   title: 'Coin Pulse',
   description: 'Crypto App with a built-in high frequency terminal & dashboard',
   icons: {
-    icon: '/logo.svg',
-    shortcut: '/logo.svg',
+    icon: '/app-logo.svg',
+    shortcut: '/app-logo.svg',
     apple: '/logo.svg',
   },
 };
