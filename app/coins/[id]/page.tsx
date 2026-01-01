@@ -1,4 +1,3 @@
-import React from 'react';
 import { fetcher, getPools } from '@/lib/coingecko.actions';
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
@@ -16,7 +15,6 @@ const Page = async ({ params }: NextPageProps) => {
     fetcher<OHLCData>(`/coins/${id}/ohlc`, {
       vs_currency: 'usd',
       days: 1,
-      interval: 'hourly',
       precision: 'full',
     }),
   ]);
